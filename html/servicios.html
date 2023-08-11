@@ -4,22 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios - Clínica Dental</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-    <!-- navegacion -->
-  <nav>
-    <nav>
-        <ul>
-          <li><a href="/index.html">Inicio</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="equipo.html">Doctores</a></li>
-          <li><a href="citas.html">Citas</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"> <img class="logo" src="/imgs/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="/index.html">Inicio</a>
+          <a class="nav-link" href="/html/equipo.html">Equipo</a>
+          <a class="nav-link active" aria-current="page" href="/html/servicios.html">Servicios</a>
+          <a class="nav-link" href="/html/contacto.html">Contacto</a>
+          <a class="nav-link" href="/html/citas.html">Citas</a>
+        </div>
+      </div>
+    </div>
   </nav>
-
 
   <header>
     <h1>Nuestros Servicios</h1>
@@ -28,19 +33,19 @@
   <!-- las grillas -->
   <section class="grid-container">
     <div class="servicio">
-      <img src="/imgs/ortodoncia.jpg" alt="ortodoncia">
+      <img src="/imgs/7-fases-ortodoncia.jpg" alt="ortodoncia">
       <h2>Ortodoncia</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>La atención dental con ortodoncia incluye el uso de dispositivos, tales como los aparatos (frenos), para: Enderezar los dientes.</p>
     </div>
     <div class="servicio">
       <img src="/imgs/blanqueamiento.jpg" alt="blanqueamiento">
       <h2>Blanqueamiento Dental</h2>
-      <p>Aliquam dicta doloribus eius error exercitationem.</p>
+      <p>El blanqueamiento dental es uno de los tratamientos preferidos por los pacientes más exigentes con el aspecto de su sonrisa, ya que permite conseguir unos dientes visiblemente más blancos y brillantes en solamente un mes.</p>
     </div>
     <div class="servicio">
       <img src="/imgs/implantes dentales.png" alt="implante">
       <h2>Implantes Dentales</h2>
-      <p>Quod reiciendis repudiandae saepe sed sequi, voluptatem?</p>
+      <p>Los implantes son la forma más fiable de reponer dientes, estos funcionan como una nueva raíz en la que se coloca una corona dentaria.</p>
     </div>
   </section>
 
@@ -48,5 +53,7 @@
     <p>Odontologia La Gioiosa | Derechos reservados</p>
   </footer>
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </html>
 
