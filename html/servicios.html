@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios - Clínica Dental</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
@@ -27,22 +28,22 @@
   </nav>
 
   <header>
-    <h1>Nuestros Servicios</h1>
+    <h1 data-aos="zoom-in" data-aos-duration="1000" >Nuestros Servicios</h1>
   </header>
 
   <!-- las grillas -->
   <section class="grid-container">
-    <div class="servicio">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="servicio">
       <img src="/imgs/7-fases-ortodoncia.jpg" alt="ortodoncia">
       <h2>Ortodoncia</h2>
       <p>La atención dental con ortodoncia incluye el uso de dispositivos, tales como los aparatos (frenos), para: Enderezar los dientes.</p>
     </div>
-    <div class="servicio">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="servicio">
       <img src="/imgs/blanqueamiento.jpg" alt="blanqueamiento">
       <h2>Blanqueamiento Dental</h2>
       <p>El blanqueamiento dental es uno de los tratamientos preferidos por los pacientes más exigentes con el aspecto de su sonrisa, ya que permite conseguir unos dientes visiblemente más blancos y brillantes en solamente un mes.</p>
     </div>
-    <div class="servicio">
+    <div data-aos="zoom-in" data-aos-duration="2000" class="servicio">
       <img src="/imgs/implantes dentales.png" alt="implante">
       <h2>Implantes Dentales</h2>
       <p>Los implantes son la forma más fiable de reponer dientes, estos funcionan como una nueva raíz en la que se coloca una corona dentaria.</p>
@@ -55,5 +56,9 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
 
